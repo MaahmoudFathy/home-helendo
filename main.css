@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+.hero-banner{
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+.header{
+    height: 3.2rem;
+}
+.img-header{
+    width: 152px;
+    height: 18px;
+}
+.user-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.button-buynow{
+    background-color: #82b440;
+    padding: 5px 20px;
+}
+.profile,.heart{
+    visibility: visible;
+}
+.number3{
+    width: 1rem;
+    height: 1rem;
+    background-color:#dcb14a;
+    border-radius: 50%;
+    top: 5px;
+    right: -5px;
+    color: rgb(0, 0, 0);
+    line-height: 1rem;
+    text-align: center;
+    font-size: .6rem;
+}
+.img-svg{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.magnifyer{
+    display: none;
+}
+.bag .number3{
+    top: 1rem;
+}
+.text-hero{
+    font-size: 1rem;
+    color: #999;
+}
+.h1-hero{
+    font-size: 60px;
+}
+.text-hero::before{
+    content: "";
+    width: .1rem;
+    height: 4.5rem;
+    background-color: #999;
+    position: absolute;
+    top:-.8rem;
+    left:-1rem;
+}
+.chair{
+    top: 6rem;
+     left: 9rem;       }
+     .chevron-left{
+        top: 20rem;
+        left: -2rem;
+        width: 2.5rem;
+        height: 2.5rem;
+     }
+     .chevron-right{
+        top:20rem ;
+        right: -2rem;
+        width: 2.5rem;
+        height: 2.5rem;
+     }
+     .h1-banner2{
+        top: 5rem;
+        left: 4rem;
+     }
+     .h6-banner2{
+        top: 12rem;
+        left: 4rem;
+        font-size: 14px !important;
+     }
+     .barrier::before{
+        content: "";
+        width: 1px;
+        height: 1rem;
+        background-color: #000000;
+        position: absolute;
+        top: 0.3rem;
+        left: -.8rem;
+     }
+     .out-of-stock{
+        top: 1rem;
+        right: 2rem;
+     }
+     .section4{
+       background-image: url(https://htmldemo.net/helendo/helendo/assets/images/bg/banner_large.webp);
+       background-size: cover !important;
+       background-position: center center !important;
+       background-repeat: no-repeat;
+       height: 35vh;
+     }
+     .hover-text{
+        bottom: -.5rem;
+        right: -8rem;
+        transition: 1s;
+     }
+     .img-hover{
+       overflow: hidden;
+     }
+     .img-hover:hover .hover-text{
+        transform: translateX(-125px);
+     }
+     .before-p::before{
+        content:"";
+        width: 5rem;
+        height: 1px;
+        background-color: #999;
+        position: absolute;
+        top: 2rem;
+        left: 0rem;
+     }
+@media (max-width: 1024px) {
+    .hero-banner{
+        height: 125vh;
+    }
+    .nav-link{
+        display: none;
+    }
+    .chevron-left,.chevron-right{
+        display: none !important;
+    }
+}
+@media (max-width: 768px) {
+.hero-banner{
+height: 130vh;}
+    .nav-link{
+        display: none;
+    }
+    .profile,.heart{
+       display: none !important;
+    }
+    .magnifyer{
+        display: inline-block !important;
+    }
+    .chevron-left,.chevron-right{
+        display: none !important;
+    }
+    .chair{
+        top: 6rem;
+        left: 3rem;
+    }
+
+}
