@@ -11,6 +11,14 @@
 .header{
     height: 3.2rem;
 }
+.img-hero{
+    right: 0;
+}
+.chair{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
 .img-header{
     width: 152px;
     height: 18px;
@@ -48,6 +56,11 @@
 .bag .number3{
     top: 1rem;
 }
+.fonts{
+    top: 30%;
+    left: 15%;
+    transform: translate(-15%,-30%);
+}
 .text-hero{
     font-size: 1rem;
     color: #999;
@@ -64,9 +77,6 @@
     top:-.8rem;
     left:-1rem;
 }
-.chair{
-    top: 6rem;
-     left: 9rem;       }
      .chevron-left{
         top: 20rem;
         left: -2rem;
@@ -95,7 +105,7 @@
         background-color: #000000;
         position: absolute;
         top: 0.3rem;
-        left: -.8rem;
+        left: -.5rem;
      }
      .out-of-stock{
         top: 1rem;
@@ -154,9 +164,22 @@ height: 130vh;}
     .chevron-left,.chevron-right{
         display: none !important;
     }
-    .chair{
-        top: 6rem;
-        left: 3rem;
-    }
 
 }
+@media (max-width: 576px) {
+    .chair{
+        width: 220px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .brand-name{
+        width: 20px;
+        height: 20px;
+    }
+    .out-of-stock{
+        top: 1rem;
+        right: 1rem;
+     }
+    }
+   
